@@ -1,0 +1,65 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: arial;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.cls-container {
+  width: 830px;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background: lightslategrey;
+}
+.cls-container .cls-background .cls-heading {
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+.cls-container .cls-background .cls-reverse, .cls-container .cls-background .cls-oddoreven, .cls-container .cls-background .cls-swap {
+  padding: 20px 0px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.cls-container .cls-background .cls-reverse input, .cls-container .cls-background .cls-oddoreven input, .cls-container .cls-background .cls-swap input {
+  padding: 5px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  outline: 0px;
+  border-radius: 5px;
+  border: lightblue;
+  background: lavender;
+}
+.cls-container .cls-background .cls-reverse a, .cls-container .cls-background .cls-oddoreven a, .cls-container .cls-background .cls-swap a {
+  font-size: 15px;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid lavender;
+  border-radius: 25px;
+  color: white;
+}
+.cls-container .cls-background .cls-reverse a:hover, .cls-container .cls-background .cls-oddoreven a:hover, .cls-container .cls-background .cls-swap a:hover {
+  background: black;
+  border: 1px solid black;
+  color: white;
+}
+.cls-container .cls-background .cls-reverse input {
+  margin-left: 21px;
+}
+.cls-container .cls-background .cls-oddoreven input {
+  margin-left: 10px;
+}
+.cls-container .cls-background .cls-swap input {
+  margin-left: 30px;
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */

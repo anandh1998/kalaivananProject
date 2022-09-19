@@ -1,0 +1,95 @@
+
+$colorblack:black;
+$colorgreen:green;
+$colorwhite:white;
+$colorred:red;
+*
+{
+    padding:0px;
+    margin:0px;
+}
+body
+{
+    font-family: arial;
+    font-size: 16px;
+    line-height: 20px;
+}
+// Remove tag to not show the dropdown button
+input::-webkit-inner-spin-button 
+{
+  -webkit-appearance: none;
+}
+// main container
+.cls-container
+{ 
+    width:830px;
+    margin: 10px auto;
+    padding:20px;
+    border-radius: 15px; 
+    background:lightslategrey;
+    .cls-background
+    {
+        .cls-heading
+        {
+            font-size: 40px;
+            line-height: 50px;
+            text-transform: uppercase;
+        }
+        .cls-reverse,.cls-oddoreven,.cls-swap
+        {
+            padding:20px 0px;
+            font-size: 15px;
+            font-weight: bold;
+            input
+            {
+                padding:5px 15px;
+                font-size: 15px;
+                font-weight: bold;
+                outline:0px;
+                border-radius: 5px;
+                border: lightblue;
+                background: lavender;
+            }
+            a
+            {
+                font-size: 15px;
+                text-decoration: none;
+                margin:10px;
+                padding:10px 20px;
+                border:1px solid lavender;
+                border-radius: 25px;
+                color: white;
+                &:hover
+                {
+                    background: black;
+                    border: 1px solid black;
+                    color: white;
+                }
+            }
+        }
+        .cls-reverse
+        {
+            input
+            {
+                margin-left:21px;
+
+            }
+        }
+        .cls-oddoreven
+        {
+            input
+            {
+                margin-left: 10px;
+            }
+        }
+        .cls-swap
+        {
+            input
+            {
+                margin-left: 30px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+// End of the main container
